@@ -121,6 +121,7 @@
 		InvDepartment.hbm.xml
 		InvStockroom.hbm.xml
 		InvInstitution.hbm.xml
+                InvStockHLB.hbm.xml
 	</mappingFiles>
 
 	<!-- Internationalization -->

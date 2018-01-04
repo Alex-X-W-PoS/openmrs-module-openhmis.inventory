@@ -29,6 +29,14 @@
 			</list>
 		</property>
 	</bean>
+        <bean parent="serviceContext">
+            <property name="moduleService">
+                <list merge="true">
+                    <value>org.openmrs.module.openhmis.inventory.api.IStockHLBDataService</value>
+                    <ref bean="invStockHLBService" />
+                </list>
+            </property>
+        </bean>
 	<bean parent="serviceContext">
 		<property name="moduleService">
 			<list merge="true">
