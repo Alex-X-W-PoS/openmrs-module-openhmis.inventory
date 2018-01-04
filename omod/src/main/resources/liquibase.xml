@@ -4,7 +4,7 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
 	<changeSet id="openhmis.inventory-v1.0-1" author="ibewes">
-            <createTable tableName="inv_inv_stockhlb">
+            <createTable tableName="inv_stockhlb">
 			<column name="stockhlb_id" autoIncrement="true" type="int">
 				<constraints nullable="false" primaryKey="true"/>
 			</column>
