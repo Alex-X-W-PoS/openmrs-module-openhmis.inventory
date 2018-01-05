@@ -383,6 +383,11 @@
 			<column name="name"/>
 			<column name="retired" />
 		</createIndex>
+                <createIndex indexName="inv_stock_medicina_idx" tableName="inv_stockhlb" unique="false">
+                        <column name="stockhlb_id"/>
+			<column name="medicina"/>
+			<column name="retired" />
+		</createIndex>
 		<createIndex indexName="inv_item_department_name_idx" tableName="inv_item" unique="false">
 			<column name="department_id" />
 			<column name="name"/>
