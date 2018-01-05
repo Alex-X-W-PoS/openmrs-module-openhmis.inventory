@@ -16,7 +16,8 @@
 			<column name="lote" type="varchar(255)" defaultValue="" ><constraints nullable="false"/></column>
 			<column name="factura" type="varchar(255)" defaultValue="" ><constraints nullable="false"/></column>
 			<column name="costo" type="decimal(10,2)"><constraints nullable="false"/></column>
-			<column name="date_retired" type="DATE"><constraints nullable="false"/></column>
+			<column name="fecha_exp" type="DATE"><constraints nullable="false"/></column>
+                        <column defaultValueBoolean="false" name="retired" type="BOOLEAN"><constraints nullable="false"/></column>
 
 			<column name="uuid" type="char(38)"><constraints nullable="false" unique="true" /></column>
 		</createTable>
